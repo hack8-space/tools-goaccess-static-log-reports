@@ -1,0 +1,28 @@
+# Local secrets
+.env
+*.env
+.goaccess-sftp.env
+
+# Generated reports and logs
+logs/
+html/
+# OS/editor files
+.DS_Store
+*.swp
+# Secret and credential files
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+.git-credentials
+hosts.yml
+# Dependencies/build/cache
+node_modules/
+dist/
+build/
+.cache/
+tmp/
+__pycache__/
+# Generated local reports/logs

@@ -1,0 +1,9 @@
+services:
+  goaccess-static-log-reports-web:
+    image: nginx:alpine
+    container_name: goaccess-static-log-reports-web
+    restart: unless-stopped
+    ports:
+      - "7881:80"
+    volumes:
+      - /opt/goaccess/static-log-reports/html:/usr/share/nginx/html:ro
