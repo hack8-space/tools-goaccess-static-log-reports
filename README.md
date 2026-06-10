@@ -6,6 +6,12 @@ Dieses Projekt erzeugt statische GoAccess-Reports aus Webserver-Access-Logs, die
 
 Es wurde für statische Websites entwickelt, bei denen keine Live-Analytics benötigt werden. Ein typischer Use Case ist eine Astro-Website ohne Login, ohne serverseitige Nutzerkonten und ohne dynamische Anwendungsschicht. Wenn der Provider Access-Logs nur einmal täglich bereitstellt, reicht ein täglicher Cronjob vollständig aus.
 
+## Getestete Zielumgebung
+
+Getestet wird dieses Projekt auf einem Debian/Ubuntu-basierten Linux-Server mit Docker, Docker Compose, bash, lftp und Cron.
+
+Andere Linux-Distributionen können funktionieren, werden aber nicht aktiv getestet.
+
 ## Was passiert?
 
 1. Das Script listet pro Domain die verfügbaren Remote-Logs per SFTP.
