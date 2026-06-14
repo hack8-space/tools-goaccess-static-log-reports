@@ -4,7 +4,7 @@ Die wichtigsten Einstellungen stehen oben im Script:
 
 ```bash
 DOMAINS=("example.org" "example.com")
-MAX_LOG_AGE_DAYS=365
+MAX_LOG_AGE_DAYS=35
 REMOTE_BASE_PATH="www_logs"
 LOCAL_BASE="/opt/goaccess/static-log-reports"
 ACCESS_LOG_GLOB="access.log.*.gz"
@@ -31,7 +31,7 @@ Pro Domain wird ein eigener Report erzeugt.
 ## Retention
 
 ```bash
-MAX_LOG_AGE_DAYS=365
+MAX_LOG_AGE_DAYS=35
 ```
 
 Das Script behält lokal nur Logs im konfigurierten Zeitraum. Remote-Dateien werden niemals gelöscht.
