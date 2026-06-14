@@ -66,7 +66,7 @@ LANDING_PAGE_FOOTER="Generated locally from server access logs."
 # Auf 0 setzen, um das automatische lokale Aufräumen und die datumsgesteuerte
 # Download-Einschränkung zu deaktivieren.
 # Es werden nur lokale Kopien gelöscht, niemals Dateien auf dem SFTP-Server.
-MAX_LOG_AGE_DAYS=365
+MAX_LOG_AGE_DAYS=35
 
 # EN: Credentials are loaded from this root-only environment file.
 # DE: Zugangsdaten werden aus dieser nur für root lesbaren Env-Datei geladen.
